@@ -4,7 +4,7 @@ squared = []
 
 def square_array(numbers)
   numbers.each do |number| 
-    squared << ** 2
+    squared << number ** 2
   end
 end 
 
