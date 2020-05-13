@@ -3,7 +3,8 @@ new_numbers = [4,5,8,12]
 squared = []
 
 def square_array(numbers)
-  numbers.each do |number| ** 2
+  numbers.each do |number| 
+    squared << ** 2
   end
 end 
 
