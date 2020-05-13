@@ -3,7 +3,7 @@ new_numbers = [4,5,8,12]
 
 def square_array(numbers)
   squared = []
-  numbers.each {|element| squared << number ** 2}
+  numbers.each {|number| squared << numbers ** 2}
 end 
 
 
